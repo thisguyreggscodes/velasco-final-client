@@ -96,7 +96,7 @@ const CartScreen = ({ match, location, history }) => {
             {/* End of cart iterms */}
             <div className="total">
               <span className="sub">total:</span>
-              <span className="total-price">${total}</span>
+              <span className="total-price">Php{total}</span>
             </div>
             <hr />
             <div className="cart-buttons d-flex align-items-center row">
