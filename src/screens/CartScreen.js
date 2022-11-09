@@ -88,7 +88,7 @@ const CartScreen = ({ match, location, history }) => {
                 </div>
                 <div className="cart-price mt-3 mt-md-0 col-md-2 align-items-sm-end align-items-start  d-flex flex-column justify-content-center col-sm-7">
                   <h6>PRICE</h6>
-                  <h4>${item.price}</h4>
+                  <h4>Php{item.price}</h4>
                 </div>
               </div>
             ))}
