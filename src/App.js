@@ -14,6 +14,7 @@ import PaymentScreen from "./screens/PaymentScreen";
 import PlaceOrderScreen from "./screens/PlaceOrderScreen";
 import OrderScreen from "./screens/OrderScreen";
 import NotFound from "./screens/NotFound";
+import Chatbot from "./components/homeComponents/Chatbot";
 import PrivateRouter from "./PrivateRouter";
 
 const App = () => {
@@ -39,7 +40,9 @@ const App = () => {
         <PrivateRouter path="/order/:id" component={OrderScreen} />
         <Route path="*" component={NotFound} />
       </Switch>
+      <Chatbot/>
     </Router>
+    
   );
 };
 
